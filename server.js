@@ -1,8 +1,8 @@
 let http = require('http');
 let users = [
-    { id: 1, name: 'zhufeng1' },
-     { id: 2, name: 'kevin' }, 
-     { id: 3, name: 'lily' }];
+    { id: 11, name: 'zhufeng1' },
+     { id: 21, name: 'kevin' }, 
+     { id: 31, name: 'lily' }];
 let server = http.createServer(function (req, res) {
     console.log(req.method, req.url);
     if (req.url == '/api/users') {
@@ -12,6 +12,6 @@ let server = http.createServer(function (req, res) {
         res.end('Now Found!');
     }
 });
-server.listen(3000, () => {
-    console.log('服务正在3000端口上启动!');
+server.listen(3005, () => {
+    console.log('服务正在3005端口上启动!');
 });
