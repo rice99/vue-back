@@ -8,7 +8,8 @@ let users = [
     {id:4444,name:'wang'},
     {id:6666,name:'xx'},
     {id:89898,name:'test'},
-    {id:1000,name:'is ok?'}
+    {id:1000,name:'is ok?'},
+    {id:111,name:'i allmost know'}
     ];
 let server = http.createServer(function (req, res) {
     console.log(req.method, req.url);
