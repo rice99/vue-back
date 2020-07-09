@@ -3,7 +3,8 @@ let users = [
     {id:1111,name:'tang'},
      { id: 2222, name: 'kevin' }, 
      { id: 3333, name: 'lily' },
-    {id:44,name:'xie'}
+    {id:44,name:'xie'},
+    {id:55,name:'zhang'}
     ];
 let server = http.createServer(function (req, res) {
     console.log(req.method, req.url);
